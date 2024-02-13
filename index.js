@@ -1,95 +1,96 @@
 const perguntas = [
   {
-    pergunta: "Qual é o nome completo do personagem principal em Harry Potter?",
+    pergunta: "Qual é a função do operador '===' em JavaScript?",
     respostas: [
-      "Harry Weasley",
-      "Harry Granger",
-      "Harry Potter",
+      "Comparação estrita de valores e tipos",
+      "Comparação solta de valores",
+      "Atribuição de valores",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "O que é uma closure em JavaScript?",
+    respostas: [
+      "Um loop que nunca termina",
+      "Uma função que contém outra função, mantendo acesso ao escopo externo",
+      "Um tipo de erro em tempo de execução",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a função do método 'map()' em arrays?",
+    respostas: [
+      "Filtra os elementos do array",
+      "Mapeia os elementos do array para um novo array",
+      "Ordena os elementos do array",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é o DOM em JavaScript?",
+    respostas: [
+      "Um modelo de desenvolvimento orientado a documentos",
+      "Uma linguagem de programação",
+      "A representação do documento HTML que o JavaScript pode manipular",
     ],
     correta: 2
   },
   {
-    pergunta: "Qual casa em Hogwarts é conhecida por sua sabedoria e inteligência?",
+    pergunta: "O que significa a sigla AJAX em JavaScript?",
     respostas: [
-      "Grifinória",
-      "Sonserina",
-      "Corvinal",
+      "Asynchronous JavaScript and XML",
+      "Advanced JavaScript and XML",
+      "Asynchronous JavaScript and XHTML",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
+    respostas: [
+      "let variable = 10;",
+      "variable = 10;",
+      "const variable: 10;",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "O que é o JSON em JavaScript?",
+    respostas: [
+      "Uma biblioteca de manipulação de DOM",
+      "JavaScript Object Notation - um formato de dados leve",
+      "Um método de ordenação de arrays",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
+    respostas: [
+      "Nenhuma diferença, são sinônimos",
+      "'let' é usado para variáveis mutáveis, 'const' para variáveis imutáveis",
+      "'const' é usado para variáveis globais, 'let' para variáveis locais",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é o operador ternário em JavaScript?",
+    respostas: [
+      "Um operador que compara três valores",
+      "Um operador que realiza operações aritméticas",
+      "Um operador condicional de três partes",
     ],
     correta: 2
   },
   {
-    pergunta: "Quem é o diretor de Hogwarts no primeiro filme da série?",
+    pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
     respostas: [
-      "Alvo Dumbledore",
-      "Severo Snape",
-      "Minerva McGonagall",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual é a varinha mágica de Harry Potter?",
-    respostas: [
-      "Varinha de Azevinho e Pena de Fênix",
-      "Varinha de Carvalho e Pelo de Unicórnio",
-      "Varinha de Cerejeira e Escama de Dragão",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Quem é o melhor amigo de Harry Potter?",
-    respostas: [
-      "Ron Weasley",
-      "Hermione Granger",
-      "Draco Malfoy",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual é o nome do vilão principal na série Harry Potter?",
-    respostas: [
-      "Lorde Voldemort",
-      "Lúcio Malfoy",
-      "Bellatrix Lestrange",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual é o esporte praticado em vassouras voadoras em Hogwarts?",
-    respostas: [
-      "Quadribol",
-      "Voo Mágico",
-      "Vassobol",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual é o animal de estimação de Hermione Granger?",
-    respostas: [
-      "Gato",
-      "Sapo",
-      "Coruja",
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "Quem é o professor de Defesa Contra as Artes das Trevas em 'A Pedra Filosofal'?",
-    respostas: [
-      "Gilderoy Lockhart",
-      "Remo Lupin",
-      "Dolores Umbridge",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual é o nome do feitiço usado para conjurar a varinha de um bruxo?",
-    respostas: [
-      "Accio",
-      "Expecto Patronum",
-      "Expelliarmus",
+      "pop()",
+      "shift()",
+      "splice()",
     ],
     correta: 0
   },
 ];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
